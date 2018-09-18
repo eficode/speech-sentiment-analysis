@@ -14,7 +14,7 @@ This project uses Google Chrome speech recognition and Azure sentiment analysis 
 * Install [nodejs](https://nodejs.org/en/download/package-manager/).
 * Go to the project directory using a terminal / shell.
 * Install dependencies `npm install`
-* Run the app `APIKEY=... npm start`
+* Run the app `npm start`
 * Open browser in [http://localhost:8000](http://localhost:8000)
 
 ### Running with Docker
@@ -22,7 +22,7 @@ This project uses Google Chrome speech recognition and Azure sentiment analysis 
 * Install [docker](https://docs.docker.com/install/).
 * Go to the project directory using a terminal / shell.
 * Build the app `docker build -t speech-sentiment .` (this is an optional step on the first time)
-* Run the app `docker run -it -e "APIKEY=..." -p 8000:8000 speech-sentiment`
+* Run the app `docker run -it -p 8000:8000 speech-sentiment`
 * Open browser in [http://localhost:8000](http://localhost:8000)
 
 ### Running with Docker Compose
@@ -30,5 +30,5 @@ This project uses Google Chrome speech recognition and Azure sentiment analysis 
 * Install [docker](https://docs.docker.com/install/).
 * Go to the project directory using a terminal / shell.
 * Build the app `docker-compose build` (this is an optional step on the first time)
-* Run the app `APIKEY=... docker-compose up`
+* Run the app `docker-compose up`
 * Open browser in [http://localhost:8000](http://localhost:8000)
