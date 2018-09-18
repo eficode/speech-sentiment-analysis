@@ -9,6 +9,10 @@ This project uses Google Chrome speech recognition and Azure sentiment analysis 
 * [nodejs](https://nodejs.org/en/download/package-manager/) or [docker](https://docs.docker.com/install/).
 * [Azure Text Analytics API key](https://azure.microsoft.com/en-us/services/cognitive-services/text-analytics/)
 
+### Creating your Text Analytics Key
+
+Follow the instructions in [Microsoft Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-access-key).
+
 ### Running with Node
 
 * Install [nodejs](https://nodejs.org/en/download/package-manager/).
