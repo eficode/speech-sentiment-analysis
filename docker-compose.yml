@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  frontend:
+    build: .
+    environment:
+      APIKEY: ${APIKEY}
+    volumes:
+      - ./src:/usr/src/app/src
+    ports:
+      - 8000:8000

@@ -1,0 +1,37 @@
+{
+  "name": "speech-sentiment-analysis",
+  "version": "0.0.1",
+  "description": "Speech Sentiment Analysis using Chrome and Azure",
+  "author": "Marko Klemetti <marko.klemetti@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrako/speech-sentiment-analysis.git"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server --config webpack.development.js --progress --inline --colors"
+  },
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-speech-recognition": "^1.0.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.49",
+    "@babel/plugin-proposal-class-properties": "^7.0.0-beta.52",
+    "@babel/polyfill": "^7.0.0-beta.49",
+    "@babel/preset-env": "^7.0.0-beta.49",
+    "@babel/preset-react": "^7.0.0-beta.52",
+    "babel-eslint": "^8.2.5",
+    "babel-loader": "^8.0.0-beta.4",
+    "babel-minify-webpack-plugin": "^0.3.1",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.2",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.7"
+  }
+}
